@@ -13,5 +13,8 @@ hs_err_pid*
 
 target/*
 .settings/*
+.idea/*
 .classpath
 .project
+hourcontrol.iml
+src/main/main.iml

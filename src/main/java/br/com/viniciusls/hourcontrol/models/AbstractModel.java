@@ -15,7 +15,6 @@ import lombok.Setter;
  * Created by vinicius.silva on 01/02/2017.
  */
 
-@Entity
 @Getter @Setter
 @MappedSuperclass
 public abstract class AbstractModel implements Serializable {
