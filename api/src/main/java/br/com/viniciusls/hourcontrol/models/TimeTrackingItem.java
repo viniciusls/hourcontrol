@@ -28,9 +28,7 @@ public class TimeTrackingItem extends AbstractModel implements Serializable {
     @Column(nullable = false)
 	private Time period;
     @Column(nullable = false)
-	private Date beginTime;
-    @Column(nullable = false)
-	private Date endTime;
+	private Date date;
     @Column(nullable = false, columnDefinition = "DATETIME default CURRENT_TIMESTAMP")
 	private Date createdAt;
     @Column(columnDefinition = "DATETIME default null on update CURRENT_TIMESTAMP")
